@@ -16,30 +16,6 @@ The main difference with Uniform Image Quantization is that we no longer need to
 2. Clone this repository.
 3. Navigate to the project directory.
 
-## Usage
-
-### Quantizing a GIF Image
-
-1. Place the GIF image you want to quantize in the project directory and name it `sd.gif`.
-2. Run the following command:
-
-   ```sh
-   go run main.go
-   ```
-
-3. The quantized GIF will be saved as `uniform_quantized.gif`.
-
-### Quantizing a PNG Image
-
-1. Place the PNG image you want to quantize in the project directory and name it `rem.png`.
-2. Run the following command:
-
-   ```sh
-   go run main.go
-   ```
-
-3. The quantized PNG will be saved as `uniform_quantized.png`.
-
 ## Code Overview
 
 ### Main Functions
